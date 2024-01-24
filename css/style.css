@@ -286,7 +286,7 @@ color: white;
 
 
 
-.Experience .box-container{
+.Certifications .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -295,7 +295,7 @@ color: white;
     padding-left: 3rem;
 }
 
-.Experience .box-container .box{
+.Certifications .box-container .box{
     width:37rem;
     margin: 5rem 1rem;
     padding-left: 4rem;
@@ -303,7 +303,7 @@ color: white;
     position: relative;
 }
 
-.Experience .box-container .box span{
+.Certifications .box-container .box span{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
@@ -311,7 +311,7 @@ color: white;
     padding:.5rem 2.5rem;
 }
 
-.Experience .box-container .box h3{
+.Certifications .box-container .box h3{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
@@ -323,7 +323,7 @@ color: white;
     padding: 1rem 0;
 }
 
-.Experience .box-container .box i{
+.Certifications .box-container .box i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -336,17 +336,17 @@ color: white;
     background:var(--blue);
 }
 
-.Experience .box-container .box a{
+.Certifications .box-container .box a{
     color: white
 }
 
-.Experience .box-container .box a:hover{
+.Certifications .box-container .box a:hover{
     color: blue
 }
 
 
 
-.Project .box-container{
+.Talks .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -355,7 +355,7 @@ color: white;
     padding-left: 3rem;
 }
 
-.Project .box-container .box{
+.Talks .box-container .box{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -363,7 +363,7 @@ color: white;
     position: relative;
 }
 
-.Project .box-container .box span{
+.Talks .box-container .box span{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
@@ -371,19 +371,19 @@ color: white;
     padding:.5rem 2.5rem;
 }
 
-.Project .box-container .box h3{
+.Talks .box-container .box h3{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
 }
 
-.Project .box-container .box p{
+.Talks .box-container .box p{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
 }
 
-.Project .box-container .box i{
+.Talks .box-container .box i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -396,11 +396,11 @@ color: white;
     background:var(--blue);
 }
 
-.Project .box-container .box  a{
+.Talks .box-container .box  a{
 color: white;
 }
 
-.Project .box-container .box a:hover{
+.Talks .box-container .box a:hover{
     color: blue
 }
 
@@ -543,11 +543,11 @@ color: white;
         width:100%;
     }
 
-    .Experience .box-container .box{
+    .Certifications .box-container .box{
         width:100%;
     }
 
-    .Project .box-container .box{
+    .Talks .box-container .box{
         width:100%;
     }
 
