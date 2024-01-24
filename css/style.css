@@ -148,34 +148,34 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-.home{
+.Home{
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
 }
 
-.home h3{
+.Home h3{
     font-size: 2.5rem;
     color:#fff;
 }
 
-.home h1{
+.Home h1{
     font-size:5rem;
     color:#fff;
 }
 
-.home h1 span{
+.Home h1 span{
     color:var(--blue);
 }
 
-.home p{
+.Home p{
     font-size:2rem;
     color:#eee;
     padding: 1rem 0;
 }
 
-.about .row{
+.About .row{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,32 +183,32 @@ header .navbar ul li a:hover{
     padding:1rem 0;
 }
 
-.about .row .info{
+.About .row .info{
     flex:1 1 48rem;
     padding:2rem 1rem;
     padding-left: 6rem;
 }
 
-.about .row .info h3{
+.About .row .info h3{
     font-size: 2rem;
     color:var(--blue);
     padding:1rem 0;
     font-weight: normal;
 }
 
-.about .row .info h3 span{
+.About .row .info h3 span{
     color:#eee;
     padding:0 .5rem;
 }
 
-.about .row .counter{
+.About .row .counter{
     flex:1 1 48rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.about .row .counter .box{
+.About .row .counter .box{
     width:20rem;
     background:#222;
     text-align: center;
@@ -216,17 +216,17 @@ header .navbar ul li a:hover{
     margin:2rem;
 }
 
-.about .row .counter .box span{
+.About .row .counter .box span{
     font-size: 4rem;
     color:var(--blue);
 }
 
-.about .row .counter .box h3{
+.About .row .counter .box h3{
     font-size: 2rem;
     color:#fff;
 }
 
-.education .box-container{
+.Education .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -235,7 +235,7 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
 }
 
-.education .box-container .box{
+.Education .box-container .box{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -243,7 +243,7 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.education .box-container .box span{
+.Education .box-container .box span{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
@@ -251,19 +251,19 @@ header .navbar ul li a:hover{
     padding:.5rem 2.5rem;
 }
 
-.education .box-container .box h3{
+.Education .box-container .box h3{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
 }
 
-.education .box-container .box p{
+.Education .box-container .box p{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
 }
 
-.education .box-container .box i{
+.Education .box-container .box i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -276,11 +276,11 @@ header .navbar ul li a:hover{
     background:var(--blue);
 }
 
-.education .box-container .box  a{
+.Education .box-container .box  a{
 color: white;
 }
 
-.education .box-container .box a:hover{
+.Education .box-container .box a:hover{
     color: blue
 }
 
@@ -405,27 +405,27 @@ color: white;
 }
 
 
-.contact .row{
+.Blog .row{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.contact .row .content{
+.Blog .row .content{
     flex:1 1 30rem;
     padding:4rem;
     padding-bottom: 0;
 }
 
-.contact .row form{
+.Blog .row form{
     flex:1 1 45rem;
     padding:2rem;
     margin:2rem;
     margin-bottom: 4rem;
 }
 
-.contact .row form .box{
+.Blog .row form .box{
     padding:1.5rem;
     margin:1rem 0;
     background:#3333;
@@ -435,23 +435,23 @@ color: white;
     width:100%;
 }
 
-.contact .row form .box::placeholder{
+.Blog .row form .box::placeholder{
     text-transform: capitalize;
 }
 
-.contact .row form .message{
+.Blog .row form .message{
     height: 15rem;
     resize: none;
 }
 
-.contact .row .content .title{
+.Blog .row .content .title{
     text-transform: uppercase;
     color:#fff;
     font-size: 3rem;
     padding-bottom: 2rem;
 }
 
-.contact .row .content .info h3{
+.Blog .row .content .info h3{
     display: flex;
     align-items: center;
     font-size: 2rem;
@@ -460,16 +460,16 @@ color: white;
     font-weight: normal;
 }
 
-.contact .row .content .info h3 i{
+.Blog .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--blue);
 }
 
-.contact .heading .row .content .title .info h3 a{
+.Blog .heading .row .content .title .info h3 a{
     color: white
 }
 
-.contact .heading .row .content .title .info h3 a:hover{
+.Blog .heading .row .content .title .info h3 a:hover{
     color: blue
 }
 
@@ -491,7 +491,7 @@ color: white;
         font-size: 55%;
     }
 
-    .home{
+    .Home{
         padding:1rem 4rem;
     }
 
@@ -535,11 +535,11 @@ color: white;
         margin:0 3rem;
     }
 
-    .about .row .counter .box{
+    .About .row .counter .box{
         width: 100%;
     }
  
-    .education .box-container .box{
+    .Education .box-container .box{
         width:100%;
     }
 
@@ -551,7 +551,7 @@ color: white;
         width:100%;
     }
 
-    .contact .row form{
+    .Blog .row form{
         margin:3rem 0;
     }
 
