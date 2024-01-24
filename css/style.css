@@ -175,56 +175,6 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
-.About .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:1rem 0;
-}
-
-.About .row .info{
-    flex:1 1 48rem;
-    padding:2rem 1rem;
-    padding-left: 6rem;
-}
-
-.About .row .info h3{
-    font-size: 2rem;
-    color:var(--blue);
-    padding:1rem 0;
-    font-weight: normal;
-}
-
-.About .row .info h3 span{
-    color:#eee;
-    padding:0 .5rem;
-}
-
-.About .row .counter{
-    flex:1 1 48rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.About .row .counter .box{
-    width:20rem;
-    background:#222;
-    text-align: center;
-    padding: 2rem;
-    margin:2rem;
-}
-
-.About .row .counter .box span{
-    font-size: 4rem;
-    color:var(--blue);
-}
-
-.About .row .counter .box h3{
-    font-size: 2rem;
-    color:#fff;
-}
 
 .Education .box-container{
     display: flex;
@@ -471,6 +421,57 @@ color: white;
 
 .Blog .heading .row .content .title .info h3 a:hover{
     color: blue
+}
+
+.About .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.About .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.About .row .info h3{
+    font-size: 2rem;
+    color:var(--blue);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.About .row .info h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+.About .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.About .row .counter .box{
+    width:20rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.About .row .counter .box span{
+    font-size: 4rem;
+    color:var(--blue);
+}
+
+.About .row .counter .box h3{
+    font-size: 2rem;
+    color:#fff;
 }
 
 .top{
