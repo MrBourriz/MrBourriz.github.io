@@ -175,6 +175,16 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
+.Home ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Home ul li {
+    font-size: 1.9rem; 
+    color: #eee; 
+    margin-bottom: 8px; 
+}
 
 .Education .box-container{
     display: flex;
