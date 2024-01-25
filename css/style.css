@@ -354,7 +354,6 @@ color: white;
     color: blue
 }
 
-
 .Blog .row{
     display: flex;
     align-items: center;
@@ -421,6 +420,20 @@ color: white;
 
 .Blog .heading .row .content .title .info h3 a:hover{
     color: blue
+}
+
+.Blog h1{
+    font-size:5rem;
+    color:#fff;
+    margin-top: 20px; 
+}
+
+.Blog h1 span{
+    color:var(--blue);
+}
+
+.Blog {
+    text-align: center;
 }
 
 .About .row{
