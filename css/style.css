@@ -487,6 +487,11 @@ color: white;
     color:#fff;
 }
 
+.Contact .info a,
+.Contact .info button {
+    margin: 15px;
+}
+
 .top{
     position: fixed;
     bottom:7.5rem; right: 2rem;
